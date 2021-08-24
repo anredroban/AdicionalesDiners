@@ -35,6 +35,8 @@ class FuncionesAjaxController {
         }
     }
     /**Configuración de variables para el calculo de asignacion de base**/
+
+
     def calcularDisponiblesAsignar(){
         String nombreBase = params.nombreBase
         String tipoRegistros = params.tipoRegistros
